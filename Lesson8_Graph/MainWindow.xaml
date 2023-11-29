@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Lesson8_Graph"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid Name ="grid">
         <Grid.RowDefinitions>
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
@@ -17,8 +17,8 @@
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <Rectangle Grid.Column="1" Stroke="Black" StrokeThickness="2" Height="100" Width="100" Fill="Red"/>
+        <!--<Rectangle Grid.Column="1" Stroke="Black" StrokeThickness="2" Height="100" Width="100" Fill="Red"/>
         <Ellipse Grid.Row="1" Grid.Column="1" Stroke="Black" StrokeThickness="2" Height="100" Width="100" Fill="Green"/>
-        <Polygon Grid.Row="2" Grid.Column="1" Stroke="Black" StrokeThickness="2" Points="180,100 135,30 80,100" Fill="Blue"/>
+        <Polygon Grid.Row="2" Grid.Column="1" Stroke="Black" StrokeThickness="2" Points="180,100 135,30 80,100" Fill="Blue"/>-->
     </Grid>
 </Window>
